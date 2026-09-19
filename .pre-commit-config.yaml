@@ -17,4 +17,9 @@ repos:
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
-        args: []  # 타입만 강제, 스코프는 자유 (레포 분리로 스코프의 구분 효용이 줄어듦)
+        args: []
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.21.2
+    hooks:
+      - id: gitleaks
