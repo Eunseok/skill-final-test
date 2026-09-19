@@ -115,6 +115,10 @@ unrelated concerns, propose the split (which files/hunks go where, with what
 message) before running any `git commit` — don't silently pick one and commit
 everything under it.
 
+## 병합 커밋 메시지
+`git merge main` 후 자동 생성되는 "Merge branch..." 메시지는 컨벤션에 안 맞아 막힌다.
+`chore: merge main into <브랜치명>` 형식으로 직접 메시지를 지정해서 커밋할 것.
+
 ## 6. Self-correct when the hook rejects
 
 Rejection output names the problem plainly, e.g.:
