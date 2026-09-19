@@ -1,5 +1,4 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
 site:
   title: skill-final-test
   structure:
@@ -15,8 +14,7 @@ site:
           path: overview
           default: true
           content:
-            directory: .
-
+            directory: ./
     - type: section
       key: section-skills
       title: Claude Skills
