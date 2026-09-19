@@ -1,0 +1,31 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: skill-final-test
+  structure:
+    - type: section
+      key: section-docs
+      title: Repository Docs
+      path: docs
+      default: true
+      children:
+        - type: space
+          key: space-docs
+          title: Overview
+          path: overview
+          default: true
+          content:
+            directory: .
+
+    - type: section
+      key: section-skills
+      title: Claude Skills
+      path: skills
+      children:
+        - type: space
+          key: space-conventional-pre-commit-skill
+          title: Committing with Conventional Pre-commit
+          path: conventional-pre-commit
+          default: true
+          content:
+            directory: ./.claude/skills/committing-with-conventional-pre-commit
