@@ -26,4 +26,4 @@ site:
           path: conventional-pre-commit
           default: true
           content:
-            directory: ./.claude/skills/committing-with-conventional-pre-commit
+            directory: null
